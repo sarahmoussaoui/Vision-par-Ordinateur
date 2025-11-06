@@ -5,7 +5,7 @@ sizeDelate = 1
 sizeErode = 1
 cv2.namedWindow("Erosion")
 cv2.namedWindow("Dilataion")
-img = cv2.imread("fille.jpeg", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r"C:\Users\moous\Documents\M2\Vision-par-Ordinateur\TP7\fille.jpeg",cv2.IMREAD_GRAYSCALE)
 cv2.threshold(img, 130, 255, 0, img)
 
 def delate_func():
